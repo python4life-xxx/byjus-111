@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tarea 111</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="jquery-1.8.2.min.js"></script>
+        <link href="style.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div class="page-header">
+            <h1>RECONOCIMIENTO FACIAL</h1>
+        </div>
+    
+    <ul class="list-group">
+        <li class="list-group-item">MAMA</li>
+        <li class="list-group-item">PAPA</li>
+        <li class="list-group-item">HIJO</li>
+        <li class="list-group-item">HIJA/li>
+    </ul>
+        <div id='captura'>
+            <input id='botonFoto' type='button' value = 'TOMAR CAPTURA'></input>
+        </div>
+        <div id='camara'>
+            <input id='botonFoto' type='button' value = 'INICIAR CAMARA'></input>
+        </div>
+        <div class="contenedor">
+            <div class="titulo">Cámara</div>
+            <video id="camara" autoplay controls></video>
+        </div>
+        <div class="contenedor">
+            <div class="titulo">Captura</div>
+            <canvas id="foto" ></canvas>
+        </div>
+    </body>
+</html>
